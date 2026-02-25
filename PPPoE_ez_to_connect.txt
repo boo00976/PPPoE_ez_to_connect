@@ -1,0 +1,9 @@
+@echo off
+
+echo start runing
+
+rasdial "PPPoEname" account帳號 password密碼 /phonebook:"C:\Users\USER\AppData\Roaming\Microsoft\Network\Connections\Pbk\rasphone.pbk" 
+@REM The line above is the dialer settings path. Remember to rename it (your user name). 上面這行是撥號設定檔路徑 記得改名(你的user) 
+
+echo success!!
+exit
